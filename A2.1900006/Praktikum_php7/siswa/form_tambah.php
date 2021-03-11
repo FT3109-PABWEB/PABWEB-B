@@ -28,8 +28,8 @@
                             <label class="custom-control-label" for="customControlValidation2">Laki-Laki</label>
                         </div>
                         <div class="custom-control custom-radio">
-                            <input type="radio" class="custom-control-input" id="customControlValidation2" name="jenis_kelamin" value="Perempuan" required>
-                            <label class="custom-control-label" for="customControlValidation2">Perempuan</label>
+                            <input type="radio" class="custom-control-input" id="customControlValidation3" name="jenis_kelamin" value="Perempuan" required>
+                            <label class="custom-control-label" for="customControlValidation3">Perempuan</label>
                             <div class="invalid-feedback">Pilih salah satu jenis kelamin.</div>
                         </div>
                     </div>
