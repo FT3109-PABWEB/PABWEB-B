@@ -158,20 +158,16 @@ var fileSize = $('#foto')[0].files[0].size;
 var allowedExtensions = /(\.jpg|\.jpeg|\.png)$/i;
  // Jika tipe file yang diupload tidak sesuai dengan allowedExtensions, tampilkan pesan :
 if (!allowedExtensions.exec(filePath)) {
-alert('Tipe file foto tidak sesuai. Harap unggah file foto yang memiliki tipe *.jpg atau
-*.png');
+alert('Tipe file foto tidak sesuai. Harap unggah file foto yang memiliki tipe *.jpg atau*.png');
 fileInput.value = '';
- document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/
-default.png"/>';
+ document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/default.png"/>';
  return false;
  }
  // jika ukuran file yang diupload lebih dari sama dengan 1 Mb
  else if (fileSize >= 1000000) {
- alert('Ukuran file foto lebih dari 1 Mb. Harap unggah file foto yang memiliki ukuran maksimal
-1 Mb.');
+ alert('Ukuran file foto lebih dari 1 Mb. Harap unggah file foto yang memiliki ukuran maksimal 1 Mb.');
  fileInput.value = '';
- document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/
- default.png"/>';
+ document.getElementById('imagePreview').innerHTML = '<img class="foto-preview" src="foto/default.png"/>';
  return false;
 }
 // selain itu
@@ -180,8 +176,7 @@ else {
 if (fileInput.files && fileInput.files[0]) {
 var reader = new FileReader();
 reader.onload = function(e) {
-document.getElementById('imagePreview').innerHTML = '<img class="foto-preview"
-src="'+e.target.result+'"/>';
+document.getElementById('imagePreview').innerHTML = '<img class="foto-preview"src="'+e.target.result+'"/>';
 };
 reader.readAsDataURL(fileInput.files[0]);
 }

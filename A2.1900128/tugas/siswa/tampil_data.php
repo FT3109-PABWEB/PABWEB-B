@@ -164,9 +164,7 @@ else {
   <a title="Ubah" class="btn btn-outline-info"
     href="?page=ubah&nis=<?php echo $data['nis']; ?>"><i class="fas fa-edit"></i></a>
    <a title="Hapus" class="btn btn-outline-danger"
-    href="proses_hapus.php?nis=<?php echo $data['nis'];?>"
-    onclick="return confirm('Anda yakin ingin menghapus
-    siswa <?php echo $data['nama']; ?>?');"><i class="fas fa-trash"></i></a>
+    href="proses_hapus.php?nis=<?php echo $data['nis'];?>" onclick="return confirm('Anda yakin ingin menghapus siswa <?php echo $data['nama']; ?>?');"><i class="fas fa-trash"></i></a>
   </td>
    </tr>
     <?php
