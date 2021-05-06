@@ -1,3 +1,1 @@
-Silahkan lihat ke
-[Website Saya](http://annisa22siswaproject.epizy.com/?i=1)
-untuk infromasi lebih lengkap
+Silahkan lihat ke [Website Saya](http://annisa22siswaproject.epizy.com) untuk informasi lebih lengkap.
