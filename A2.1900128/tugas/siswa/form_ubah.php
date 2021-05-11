@@ -146,4 +146,3 @@ onchange="return validasiFile()" autocomplete="off" value="<?php echo $foto; ?>"
 </div>
  </div>
  </div>
-
