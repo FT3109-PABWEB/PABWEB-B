@@ -1,1 +1,0 @@
-Silahkan lihat ke [Website Saya](http://gilangerlangga.infinityfreeapp.com/) untuk informasi lebih lengkap

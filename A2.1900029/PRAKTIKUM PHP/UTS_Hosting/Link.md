@@ -1,1 +1,0 @@
-Silahkan lihat ke[Website Saya](http://cahpandalicious.infinityfreeapp.com/)untuk informasi lebih lengkap
