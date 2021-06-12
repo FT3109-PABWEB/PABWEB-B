@@ -24,7 +24,7 @@ class Post extends Controller
         return view('post-index', $data);
     }
 
-     /**
+    /**
      * create function
      */
     public function create()
@@ -148,7 +148,6 @@ class Post extends Controller
 
             return redirect()->to(base_url('post'));
         }
-
     }
 
     /**
@@ -169,5 +168,6 @@ class Post extends Controller
 
             return redirect()->to(base_url('post'));
         }
+
     }
 }
